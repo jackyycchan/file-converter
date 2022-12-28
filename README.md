@@ -5,6 +5,9 @@ This is a demo for transforming file into binary string and reverse back to corr
 - Python 3.0.0+
 
 # Usage
-'''SELinux
-python test.py
-'''
+- Place all target files into '''src''' directory
+- Run script
+```SELinux
+> python3 test.py
+```
+- Check files in '''dist''' directory
