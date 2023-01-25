@@ -2,4 +2,4 @@
 .DS_Store
 
 # output folder
-dist/
+dist/*
