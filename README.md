@@ -11,19 +11,19 @@ This is a demo for transforming file into binary string and reverse back to corr
 	```SELinux
 	> python convert_to_bin.py
 	```
-All output file will be located at **bin/**
+	All output file will be located at **bin/**
 
 2. Convert binary text file into DNA sequence
 	```SELinux
 	> python convert_to_dna.py
 	```
-All output file will be located at **dna/**
+	All output file will be located at **dna/**
 
 3. Reverse DNA sequence into original file
 	```SELinux
 	> python reverse_to_original_enhance.py
 	```
-All output file will be located at **bytes/**
+	All output file will be located at **bytes/**
 
 # Limitations
 - Memory-intensive
