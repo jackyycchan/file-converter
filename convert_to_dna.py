@@ -9,6 +9,9 @@ baseDir = os.path.join("resources", "dest")
 srcDir = "bin"
 destDir = "bin-ls" if not isMapping else "dna"
 
+if not os.path.exists(os.path.join(baseDir, destDir)):
+    os.makedirs(os.path.join(baseDir, destDir))
+
 for path in os.listdir(os.path.join(baseDir, srcDir)):
 	# exclud op specific files, e.g. .DS_Store for macOS
 	if path == ".DS_Store":

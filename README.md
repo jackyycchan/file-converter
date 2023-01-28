@@ -6,8 +6,26 @@ This is a demo for transforming file into binary string and reverse back to corr
 
 # Usage
 - Place all target files into **src/** directory
-- Run script
-```SELinux
-> python3 test.py
-```
-- Check files in **dist/** directory
+- Follow below steps in order to generate corresponding files under **resources/dest/** directory:
+1. Convert src files into binary text file
+	```SELinux
+	> python convert_to_bin.py
+	```
+All output file will be located at **bin/**
+
+2. Convert binary text file into DNA sequence
+	```SELinux
+	> python convert_to_dna.py
+	```
+All output file will be located at **dna/**
+
+3. Reverse DNA sequence into original file
+	```SELinux
+	> python reverse_to_original_enhance.py
+	```
+All output file will be located at **bytes/**
+
+# Limitations
+- Memory-intensive
+- Splits on files not support
+- Mapping between DNA and bits is not dynamic
