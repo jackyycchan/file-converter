@@ -1,5 +1,8 @@
 # platform specific
 .DS_Store
 
+# python related
+__pycache__/
+
 # output folder
-dest/*
+resources/dest/*
